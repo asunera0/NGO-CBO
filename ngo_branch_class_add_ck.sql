@@ -1,0 +1,1 @@
+alter table ngo_branch_class add constraint ck_branch_class_id unique (branch_id,class_id);
